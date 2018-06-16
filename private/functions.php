@@ -10,6 +10,7 @@
       }
 
     function u($string="") {
+      // encode characters and spaces '+' or '%20'
       return urlencode($string);
     }
 
@@ -18,6 +19,7 @@
     }
 
     function h($string="") {
+      // this function makes sure html is safe No javascript insertions.
       return htmlspecialchars($string);
     }
 
@@ -34,5 +36,13 @@
     function redirect_to($location) {
       header("Location: " . $location);
       exit;
+    }
+
+    function is_post_request(){
+      return $_SERVER['REQUEST_METHOD'] == 'POST';
+    }
+
+    function is_get_request(){
+      return $_SERVER['REQUEST_METHOD'] == 'GET';
     }
 ?>
