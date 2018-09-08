@@ -1,7 +1,8 @@
 # GlobeBank
 PHP 
 
-This is where I will upload my work files from the Lynda.com course PHP with MySQL Essential training 1.
+The Globe bank website is complete and working on my site, I have not included the Functions and Query Functions or Database connection within the files on here.
 
+The site has an admin area to create, Edite, Delete and Preview new or existing pages.
 
-Completed forms, edit page and create new record page, updated functions.
+MySQL and PHP built while learing on lynda.com
